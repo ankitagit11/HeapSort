@@ -23,14 +23,7 @@ int main()
 	// Number of nodes
 	int n = 10;
 
-	// heap represents the following min heap:
-	//	 10
-	// / \
-	// 25	 23
-	// / \ / \
-	// 45 50 30 35
-	// / \ /
-	//63 65 81
+	
 	int heap[] = { 10, 25, 23, 45, 50, 30, 35, 63, 65, 81 };
 
 	cout << findMaximumElement(heap, n);
